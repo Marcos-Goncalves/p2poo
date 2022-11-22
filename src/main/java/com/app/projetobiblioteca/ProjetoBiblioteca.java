@@ -5,12 +5,7 @@
 
 package com.app.projetobiblioteca;
 
-import entidades.Categoria;
-import entidades.Usuario;
 import janelas.Login;
-import javax.persistence.EntityManager;
-import javax.persistence.EntityManagerFactory;
-import javax.persistence.Persistence;
 
 /**
  *

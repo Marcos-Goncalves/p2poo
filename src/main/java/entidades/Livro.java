@@ -75,4 +75,8 @@ public class Livro implements Serializable{
         this.exemplar = exemplar;
     }
     
+    @Override
+    public String toString(){
+        return titulo;
+    }
 }

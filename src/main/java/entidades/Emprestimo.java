@@ -75,5 +75,9 @@ public class Emprestimo implements Serializable{
         this.livro = livro;
     }
     
+    @Override
+    public String toString(){
+        return String.valueOf(idEmprestimo);
+    }
     
 }

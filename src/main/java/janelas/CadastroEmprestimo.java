@@ -32,6 +32,7 @@ public class CadastroEmprestimo extends javax.swing.JFrame {
      */
     public CadastroEmprestimo(LinkedList listaEmprestimo, LinkedList listaUsuario, LinkedList listaLivro) {
         initComponents();
+        listaEmprestimo.clear();
         this.listaEmprestimo = listaEmprestimo;
         this.listaUsuario = listaUsuario;
         this.listaLivro = listaLivro;
@@ -70,7 +71,7 @@ public class CadastroEmprestimo extends javax.swing.JFrame {
         comboUsuario = new javax.swing.JComboBox<>();
         comboLivro = new javax.swing.JComboBox<>();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
 
         jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder("Empréstimo"));
 
